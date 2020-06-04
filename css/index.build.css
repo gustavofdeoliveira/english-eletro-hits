@@ -1,0 +1,582 @@
+.palavra1{
+    text-decoration: underline;
+    background: -webkit-linear-gradient(left, #e3ace3 , #cf70cf 100%);
+    background: linear-gradient(-0.2turn, #e3ace3 , #cf70cf, #9966cc , #9370db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.linha1 {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #cf70cf ;}
+    
+.palavra2{
+    text-decoration: underline;
+    background: -webkit-linear-gradient(left, #e3ace3 , #cf70cf 100%);
+    background: linear-gradient(-0.2turn, #e3ace3 , #cf70cf, #9966cc , #9370db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.linha2 {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #cf70cf ;}
+.circle {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: center;
+}
+.foto{
+    margin-left: -530px;
+    margin-top: -450px;
+}
+.polar{
+    color:#fff;
+}
+div.polaroiddualipa {
+    margin-left: -530px;
+    margin-top: -450px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+
+                }
+
+div.containerdualipa {
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+
+                }
+
+div.polaroidkatyperry {
+    margin-left: -530px;
+    margin-top: -398px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containerkatyperry {
+    text-align: center;
+    padding: 10px 20px;
+                } 
+
+div.polaroidladygaga {
+    margin-left: -530px;
+    margin-top: -370px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containerladygaga {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+div.polaroidcamila {
+    margin-left: -530px;
+    margin-top: -450px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containercamila {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+div.polaroidbeyonce {
+    margin-left: -530px;
+    margin-top: -468px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containerbeyonce {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+div.polaroidariana {
+    margin-left: -530px;
+    margin-top: -373px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containerariana {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+div.polaroidrihanna {
+    margin-left: -530px;
+    margin-top: -398px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containerrihanna {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+div.polaroidsia {
+    margin-left: -530px;
+    margin-top: -400px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containersia {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+div.polaroidcardi {
+    margin-left: -530px;
+    margin-top: -400px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px; 
+    border: 30px;
+    border: 8px solid #fff;
+                }
+
+div.containercardi {
+    text-align: center;
+    padding: 10px 20px;
+                }
+
+
+body {
+    font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif, inherit;
+    font-style: normal;
+}
+.linkbranco h1{
+
+    color:#000;
+}
+.linkbranco:visited h1{
+    color:#000;
+}
+.posicao{
+    margin-top: 50px;
+}
+
+#menu{
+    z-index: 90; 
+    position: fixed;
+    width: 100%;
+}
+.about-tumblr-showcase {
+    font-size: 18px;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    animation: aboutTumblrIntro .7s ease-out .5s;
+    animation-fill-mode: backwards;
+}
+
+.about-tumblr-showcase .section {
+    background: #ffd9d6;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    transform: translateY(0);
+    transition: transform .7s cubic-bezier(.825,0,.5,1)
+}
+
+.about-tumblr-showcase .section.old-hat {
+    transform: translateY(-100%)
+}
+
+@media only screen and (max-height: 800px),only screen and (max-width:1100px) {
+    .about-tumblr-showcase .section-title {
+        font-size:42px
+    }
+}
+
+@media only screen and (max-height: 540px),only screen and (max-width:900px) {
+    .about-tumblr-showcase .section-title {
+        font-size:34px
+    }
+}
+
+@keyframes aboutTumblrIntro {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.showcase-pagination {
+    left: 40px;
+    position: absolute;
+    top: 50%;
+    z-index: 2147483643;
+    transform: translateY(-50%)
+}
+
+.showcase-pagination .dot {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #000;
+    cursor: pointer;
+    height: 16px;
+    margin-bottom: 10px;
+    opacity: .4;
+    position: relative;
+    width: 16px;
+    box-sizing: border-box
+}
+
+.showcase-pagination .dot:hover {
+    opacity: 1
+}
+
+.showcase-pagination .dot.active {
+    background: #fff;
+    box-shadow: none;
+    opacity: 1
+}
+
+.showcase .login-section .about-tumblr-btn {
+    background: #ffb6c1;
+    box-shadow: inset 0 3px 0 rgba(0,0,0,.1);
+    bottom: -45px;
+    color: #000;
+    cursor: pointer;
+    height: 45px;
+    font-weight: 700;
+    left: 0;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    transition: bottom .3s ease-out 0.9s
+}
+
+.ready .showcase .login-section .about-tumblr-btn {
+    bottom: 0
+}
+
+.showcase .about-section {
+    background: #ffd9d6 ;
+    display: table;
+    text-align: center
+}
+
+.showcase .about-section .section-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.showcase .about-section .section-content {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.showcase .blogs-section .section1 {
+    background: yellow;
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .blogs-section .section-wrapper {
+    margin-left: 800px;
+    margin-top: 150px
+}
+
+.showcase .blogs-section .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- dualipa -->
+.dualipa .section {
+}
+
+.dualipa .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .dualipa {
+    background:  linear-gradient( -0.2turn,#e3ace3 , #cf70cf, #9966cc , #9370db ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .dualipa .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.showcase .dualipa .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;   
+}
+
+<!-- katyperry -->
+.katyperry .section {
+}
+
+.katyperry .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .katyperry {
+    background:  linear-gradient( -0.2turn, #bdeffa, #b0e0e6, #79d2e6 , #79d2e6 ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .katyperry .section-wrapper{
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.showcase .katyperry .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- ladygaga -->
+.ladygaga .section {
+}
+
+.ladygaga .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .ladygaga {
+    background:  linear-gradient( -0.2turn,#ebeae9 , #d8d4d3, #beb9b6 , #b2aba8 ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .ladygaga .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.showcase .ladygaga .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- camila -->
+.camila .section {
+}
+
+.camila .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .camila {
+    background:  linear-gradient( -0.2turn, #ffb6c1, #ffadbb, #e59e9d, #c96d6b ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .camila .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px
+}
+
+.showcase .camila .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- beyonce -->
+.beyonce .section {
+}
+
+.beyonce .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .beyonce {
+    background:  linear-gradient( -0.2turn, #c8cacd, #45423e,  #1e1e1e, #111111 ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .beyonce .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px
+}
+
+.showcase .beyonce .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+
+<!-- ariana -->
+.ariana .section {
+}
+
+.ariana .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .ariana {
+    background:  linear-gradient( -0.2turn, #cecec5, #cacaca, #abab98, #30303b ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .ariana .section-wrapper{
+    margin-left: 600px;
+    margin-top: 150px
+}
+
+.showcase .ariana .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- rihanna -->
+.rihanna .section {
+}
+
+.rihanna .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .rihanna {
+    background:  linear-gradient( -0.2turn, #ec9b7e , #df7a56, #cf572f, #bd3000 ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .rihanna .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px
+}
+
+.showcase .rihanna .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- sia -->
+.sia .section {
+}
+
+.sia .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .sia {
+    background:  linear-gradient( -0.2turn,  #e4d4e2,#dbdae9,#dae7f4 ,#d9e6d7,#fff39b, #fdccb0, #ffe7e4 ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .sia .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px
+}
+
+.showcase .sia .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+<!-- cardi  -->
+.cardi .section {
+}
+
+.cardi .section.old-hat {
+    transform: translateY(-100%)
+}
+
+.showcase .cardi {
+    background:  linear-gradient( -0.2turn, #fa977d, #f07255, #e44a2e, #d40000 ); 
+    overflow: hidden;
+    text-align: left;
+}
+
+.showcase .cardi .section-wrapper {
+    margin-left: 600px;
+    margin-top: 150px
+}
+
+.showcase .cardi .section-content {
+    margin-bottom: 20px;
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
