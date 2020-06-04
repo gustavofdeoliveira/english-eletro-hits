@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Exercises | Lady Gaga</title>
+    <meta charset="utf-8"> 
+
+  <!-- links de estilo css-->
+    <link rel="stylesheet" type="text/css" href="css/level3.css">
+    <script type="text/javascript" src="js/level3.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/final.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"/>
+
+<!-- links boodstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+<!-- links boodstrap JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 
+
+     <!-- Desing menu bar -->
+        <style> 
+            body{
+                margin:25px;
+                margin: 0; 
+                }
+
+            #menu ul{
+                margin: 0;
+                background-color: #ffb6c1;
+                list-style: none;
+                text-align: center;
+                font-family: "serif"
+                }
+                
+            #menu ul li{
+                display: inline;    
+                }
+
+            #menu ul li a{
+                padding: 10px 10px;
+                display: inline-block;
+                color: black;
+                text-decoration: none;    
+                }
+            #menu ul li a:hover{
+                color: #0A0231;
+                }
+
+            #container {
+                display: inline-block;
+                position: relative;
+                }
+    
+            
+        </style>
+</head> 
+
+<!-- Welcome -->
+<body id="corpo">
+       <div id="menu">
+                    <ul>
+                        <li><a href= "index.html">Home</a></li>
+                        <li><a href="sobrenos.html"> About Us</a></li>
+                        <li><a href= "Levels.html"> Levels</a></li>
+                        <li><a href= "singers.html"> Singers</a></li>                  
+                    </ul>
+                </div>
+     <div class="container">
+      <div class="questions">
+        <div id="question-n1" class="question active">
+            <h2 style="margin-top: 15px; margin-left: 110px;">Lady Gaga - Shallow </h2>
+                <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                        <audio id="demo" src="midia/lady/shallow.mp3"></audio>
+                        <img   onmouseover ="document.getElementById('demo').play();" src="img/exercicio/lady/shallow.jpg" alt="Card image cap" onmouseout="document.getElementById('demo').pause();">
+                    </div>
+                    <div class="espaco" style="margin-left: -550px; margin-top: 80px; text-align: center;">
+                        <p><b>Organize the verses in the correct order: </b></p><br>
+                        <p>1 - I'm off the deep end, watch as I dive in</p>
+                        <p>2 - <b>Ain't*</b> it hard keeping it so hardcore? </p>
+                        <p>3 - In the <b>shallow*</b>, shallow (x3) </p>
+                        <p>4 - We're far from the shallow now</p>
+                        <p>5 - I'm falling</p>
+                        <p>6 - I'll never meet the ground</p>
+                        <p>7 - In all the good times I find myself</p>
+                        <p>8 - We're far from the shallow now</p>
+                        <p>9 - Tell me somethin’, boy? </p>
+                        <p>10 - And in the bad times I fear myself</p>
+                        <p>11 - Aren't you tired tryin' to fill that void? </p>
+                        <p>12 - Crash through the surface, where they can't hurt us</p>
+                        <p>13 - Or do you need more? </p>
+                        <p>14 - Longing for change</p>
+
+                    </div>
+                    <div style="margin-top: -300px; margin-left: 500px;">
+                        <div style="margin-left: 195px;" >
+                        <p><b>Ain’t = </b> é uma gíria muito usada em músicas. Ela traz uma estrutura negativa às frases, podendo ter o mesmo significado de is not, does not e have not, por exemplo. Só deve ser usada em situações informais. </p>
+                         <p><b>Shallow =</b> raso. </p>
+                     </div>
+
+                <div style="margin-left: 195px;" id="opcao1">
+                    <p id="errado1" style="margin-left: 400px; position: fixed; "></p>
+                            <input type="radio" id="1" name="Pacote" value="Pacote i" >A) 9 - 11 - 6 - 8 - 12 - 1 - 3 - 4 - 14 - 13 - 2 - 5 - 7 - 10<br>
+                </div>
+                <div style="margin-left: 195px;" id="opcao2">
+                    <p id="certo1" style="margin-left: 400px; position: fixed; "></p>
+                        <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) 9 - 11 - 13 - 2 - 5 - 7 - 14 - 10 - 1 - 6 - 12 - 4 - 3 - 8<br>
+                </div>
+                <div style="margin-left: 195px;" id="opcao3">
+                    <p id="errado2" style="margin-left: 400px; position: fixed; "></p>
+                        <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) 9 - 11 - 13 - 5 - 2 - 7 - 10 - 14 - 1 - 6 - 12 - 8 - 3 - 4<br>
+                </div>
+                <div style="margin-left: 195px;" id="opcao4">
+                    <p id="errado3" style="margin-left: 400px; position: fixed; "></p>
+                        <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) 9 - 11 - 13 - 5 - 2 - 7 - 10 - 14 - 1 - 6 - 12 - 3 - 8 - 4 <br>
+                </div>
+                       
+            </div>
+                         
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao1()" class="btn btn-primary" style="margin-left: 900px; margin-top: 50px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+<div id="question-n2" class="question">
+    <h2 style="margin-top: 15px; margin-left: 110px;">Lady Gaga - Poker Face</h2>
+        <div class="espaco" style="margin-top: 20px; margin-left: -640px; text-align: center;">
+            <p><b>Fill in the blanks: </b></p>
+            <p>I wanna hold 'em like they do in Texas plays </p>
+            <p><input type="text" id="alt1" name="sigla" style="height: 30px; width: 80px;"> 'em, let 'em, hit me,<br><br> raise it baby stay with me (I love it) </p>
+            <p>Love Game <input type="text" id="alt2" name="sigla" style="height: 30px; width: 80px;">  play the cards with <input type="text" id="alt3" name="sigla" style="height: 30px; width: 80px;"> to start </p>
+            <p>And after he's been hooked I'll play the one that's on his heart </p>
+            <p>Oh, oh, oh, oh, oh, oh-oh-e-oh-oh-oh </p>
+            <p>I'll get him hot, show him what <input type="text" id="al4" name="sigla" style="height: 30px; width: 80px;">  got </p>
+            <p>Oh, oh, oh, oh, oh, oh-oh-e-oh-oh-oh, </p>
+            <p>I'll get him hot, show him what I've got </p>
+            <p>Can't read my </p>
+            <p>Can't read my </p>
+            <p>No he can't read my poker face </p>
+            <p> (She's got me like <input type="text" id="alt5" name="sigla" style="height: 30px; width: 80px;"> ) </p>
+            <p>Can't read my </p>
+            <p>Can't read my </p>
+            <p>No he can't read my poker face </p>
+            
+            
+        </div>
+            <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                <audio id="demo1" src="midia/lady/poker.mp3"></audio> 
+                    <img onmouseover ="document.getElementById('demo1').play();" src="img/exercicio/lady/poker.png" alt="Card image cap" onmouseout="document.getElementById('demo1').pause();">
+            </div>
+                <div style="margin-left: 690px; margin-top: -500px;">
+                
+            <p> (She is gonna let <input type="text" id="alt6" name="sigla" style="height: 30px; width: 80px;"> ) </p>
+            <p>P p p poker face, p p p poker face </p>
+            <p> (Muh muh muh muh) </p>
+            <p>P p p poker face, p p poker face </p>
+            <p> (Muh muh muh muh) </p>
+            <p>I wanna roll with him a <input type="text" id="alt7" name="sigla" style="height: 30px; width: 80px;">   <input type="text" id="alt8" name="sigla" style="height: 30px; width: 80px;">  we will be </p>
+            <p>A little <input type="text" id="alt9" name="sigla" style="height: 30px; width: 80px;">  is fun when you're with me (I love it) </p>
+            <p>Russian Roulette is not the same <input type="text" id="alt10" name="sigla" style="height: 30px; width: 80px;">  a gun </p>
+            <p>And baby when it's love, if its not <input type="text" id="alt11" name="sigla" style="height: 30px; width: 80px;">  it isn't fun, fun </p>
+
+                </div>
+
+            
+                    
+            <div style="margin-left: 0px;">
+                <button onClick ="questao2()" class="btn btn-primary" style="margin-left: 900px; margin-top: 6px; background-color: #fff; color: #000;" >Submit</button>
+            </div>
+        </div>
+        <div id="question-n3" class="question">
+            <h2 style="margin-top: 15px; margin-left: 110px;">Lady Gaga - Bad Romance</h2>
+                <div class="espaco" style="margin-top: 10px; margin-left: -530px; text-align: center;">
+                        <p>I want your <b>ugly*</b> </p>
+                        <p> I want your <b>disease*</b> </p>
+                        <p> I want your everything</p>
+                        <p> As long as it's free</p>
+                        <p> I want your love</p>
+                        <p> Love-love-love</p>
+                        <p> I want your love</p>
+                        <p> I want your drama</p>
+                        <p> The touch of your hand</p>
+                        <p> I want your <b>leather*</b> studded kiss in the sand</p>
+                        <p> I want your love</p>
+                        <p> Love-love-love, I want your love (Love-love-love, I want your love) </p>
+                        <p> You know that I want you</p>
+                        <p> And you know that I need you</p>
+                        <p> I want it bad</p>
+                        <p> Your bad romance</p>
+                        <p> I want your love and</p>
+                        <p>I want your<b> revenge*</b> </p>
+                        <p><b>You and me could write a bad romance</b></p>
+                        <p> (Oh-oh-oh-oh-oooh!) </p>
+                        <p> I want your love and</p>
+                        <p> All your lovers revenge</p>
+                        <p> <b>You and me could write a bad romance</b> </p>
+                        
+
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                        <audio id="demo2" src="midia/lady/bad.mp3"></audio> 
+                        <img onmouseover ="document.getElementById('demo2').play();" src="img/exercicio/lady/bad.jpg" alt="Card image cap" onmouseout="document.getElementById('demo2').pause();">
+                    </div>
+                    <div style="margin-left: 690px; margin-top: -600px;" class="espaco">
+                    <p> <b>You and me could write a bad romance</b> </p>
+                        <p> Oh-oh-oh-oh-oh! Oh-oh-oh-oh-oh-oh! </p>
+                        <p> Caught in a bad romance</p>
+                        <p> Oh-oh-oh-oh-ooh! Oh-oh-ooh-oh-oh-oh! </p>
+                        <p> <b>Caught*</b> in a bad romance</p>
+                        <p> Rah rah ah-ah-ah! </p>
+                        <p> Ro mah ro-mah-mah </p>
+                        <p> Gaga ooh-la-la! </p>
+                        <p> Want your bad romance </p>
+                        <p><b>Ugly = </b>feio(a).<p>
+                       <p> <b>Disease =</b> doença.<p>
+                        <p><b>Leather =</b> couro.<p>
+                        <p><b>Revenge = </b></b>vingança.<p>
+                        <p><b>Caught =</b> pego, preso, apanhado.<p>
+
+                    </div>
+                    <p style="margin-left: 690px; margin-top: 0px;">
+                    <b>About the word could, we can infer that: </b>
+                    </p>
+                    
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 195px;" id="op5">
+                            <p id="f" style="margin-left: 350px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) It’s an adverb, expressing the idea of possibility or permission. In the verses, it stands for a possibility.<br>
+                        </div>
+                        <div style="margin-left: 195px;" id="opcao6">
+                            <p id="5" style="margin-left: 360px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) It’s a modal verb, expressing the idea of possibility or permission. In the verses, it stands for a permission. <br>
+                        </div>
+                        <div style="margin-left: 195px;" id="opcao7">
+                            <p id="6" style="margin-left: 360px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) It’s an adverb, expressing the idea of possibility or permission. In the verses, it stands for a permission.<br>
+                        </div>
+                        <div style="margin-left: 195px;" id="opcao8">
+                            <p id="b" style="margin-left: 350px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) It’s a modal verb, expressing the idea of possibility or permission. In the verses, it stands for a possibility.<br>
+                        </div>
+
+                    </div>
+                    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao3()" class="btn btn-primary" style="margin-left: 900px; margin-top: 10px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n4" class="question">
+            <h2 style="margin-top: 15px; margin-left: 90px;">Lady Gaga - Telephone ft. Beyoncé </h2>
+                    <div class="espaco" style="margin-left: -540px; margin-top: 130px; text-align: center;">
+                        <p>Not that I don't like you, I'm just at a party</p>
+                        <p> And I am sick and tired of my phone r-ringing</p>
+                        <p>Sometimes I feel like I live in Grand Central Station</p>
+                        <p>Tonight <b>I'm not taking</b> no calls 'cause I'll be dancing</p>
+                        <p>'Cause I'll be dancing</p>
+                        <p>'Cause I'll be dancing</p>
+                        <p>Tonight I'm not taking no calls 'cause I'll be dancing</p>
+
+                        <p>Stop calling, stop calling, I don't wanna think anymore</p>
+                        <p>I left my head and my heart on the dancefloor</p>
+                        <p>Stop calling, stop calling, I don't wanna talk anymore</p>
+                        <p>I left my head and my heart on the dancefloor</p>
+
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                        <img src="img/exercicio/lady/telephone.png" onmouseover ="document.getElementById('demo3').play();" alt="Card image cap" onmouseout="document.getElementById('demo3').pause();">
+                            <audio id="demo3" src="midia/lady/telephone.mp3"></audio>
+                    </div>
+                    <p style="margin-left: 710px; margin-top: -270px;">
+                    Dado o contexto, a estrutura Verb + ing pode referir-se ao futuro, geralmente quando falamos de ações planejadas em que o sujeito se esforçou para garantir que elas realmente ocorram.
+                    </p>
+                <p style="margin-top: 18px; margin-left: 680px;"><b>The verb tense of the words in bold is:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao9">
+                            <p id="c" style="margin-left: 140px; margin-top: 0px; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) Future tense<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao10">
+                            <p id="7" style="margin-left: 220px; margin-top: 0px; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Present continuous tense<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao11">
+                            <p id="8" style="margin-left: 140px; margin-top: 0px; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Present tense<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op12">
+                            <p id="9" style="margin-left: 200px; margin-top: 0px; position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) Present perfect tense<br>
+                        </div>
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao4()" class="btn btn-primary" style="margin-left: 900px; margin-top: 80px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n5" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Lady Perry - Applause</h2>
+                    <div class="espaco" style="margin-left: -530px; margin-top: 40px; text-align: center;">
+                        <p><b>Complete the empty spaces:</b></p>
+                        <p>I stand here waiting for you to bang the <input type="text" id="a1" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>To crash the critics saying, "is it right or is it wrong?" </p>
+                        <p>If only fame had an IV, baby could I <input type="text" id="a2" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>Being away from you, I found the <input type="text" id="a3" name="sigla" style="height: 30px; width: 80px;"> , put it in here</p>
+
+                        <p>I live for the applause, applause, applause</p>
+                        <p>I live for the applause-plause, live for the applause-plause</p>
+                        <p>Live for the way that you <input type="text" id="a4" name="sigla" style="height: 30px; width: 80px;"> and scream for me</p>
+                        <p>The applause, applause, applause</p>
+
+                        <p>Give me that thing that I love (Turn the lights on) </p>
+                        <p>Put your hands up, make 'em touch, touch (Make it real loud) </p>
+                        <p>Give me that thing that I love (Turn the lights on) </p>
+                        <p>Put your hands up, make 'em touch, touch (Make it real loud) </p>
+
+
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                        <img src="img/exercicio/lady/applause.jpg" onmouseover ="document.getElementById('demo4').play();" alt="Card image cap" onmouseout="document.getElementById('demo4').pause();">
+                            <audio id="demo4" src="midia/lady/applause.mp3"></audio>
+                    </div>
+                    <div style="margin-left: 710px; margin-top: -400px; text-align: center;" class="espaco">
+                        <p>Make it real <input type="text" id="a5" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>Put your hands up, make 'em touch, touch</p>
+                        <p> (A-P-P-L-A-U-S-E) Make it real loud</p>
+                        <p>Put your hands up, make 'em touch, touch</p>
+
+                        <p>I've <input type="text" id="a6" name="sigla" style="height: 30px; width: 80px;"> your theory</p>
+                        <p>"Nostalgia's for <input type="text" id="a7" name="sigla" style="height: 30px; width: 80px;"> "</p>
+                        <p>I guess sir, if you say so
+                        <p>Some of us just like to read</p>
+
+                        <p>One second I'm a <input type="text" id="a8" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>Then <input type="text" id="a9" name="sigla" style="height: 30px; width: 80px;"> the kunst is me</p>
+                        <p>Pop culture was in art</p>
+                        <p>Now, art's in pop culture in me</p>
+                    
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao5()" class="btn btn-primary" style="margin-left: 900px; margin-top: 22px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+    
+        <div id="question-n6" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Lady Gaga - Million Reasons</h2>
+                <div class="espaco" style="margin-left: -570px; margin-top: 50px; text-align: center;">
+                    <p>You're giving me a million reasons to let you go</p>
+                    <p>You're giving me a million reasons to quit the show</p>
+                    <p>You're givin' me a million reasons</p>
+                    <p>Give me a million reasons</p>
+                    <p>Givin' me a million reasons</p>
+                    <p>About a million reasons</p>
+
+                    <p>If I had a highway, I would run for the hills</p>
+                    <p>If you could find a dry way, I'd forever be still</p>
+                    <p>But you're giving me a million reasons</p>
+                    <p>Give me a million reasons</p>
+                    <p>Givin' me a million reasons</p>
+                    <p>About a million reasons</p>
+
+                    <p>I bow down* to pray</p>
+                    <p>I try to make the worst seem better</p>
+                    <p>Lord, show me the way</p>
+                    <p>To cut through all his worn out leather</p>
+                    <p>I've got a hundred million reasons to walk away</p>
+                    <p>But baby, I just need one good one to stay</p>
+
+                    
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 450px; position: fixed;">
+                        <img src="img/exercicio/lady/million.jpg" onmouseover ="document.getElementById('demo5').play();" alt="Card image cap" onmouseout="document.getElementById('demo5').pause();">
+                            <audio id="demo5" src="midia/lady/million.mp3"></audio>
+                    </div>
+                    <p style="margin-left: 690px; margin-top: -370px;">
+                    <b>Bow down =</b> phrasal verb, curvar-se.
+                </p>
+                <p style="margin-top: 0px; margin-left: 670px;"><b>About the words million and hundred, we can infer that:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao17">
+                            <p id="13" style="margin-left: 210px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) Both words are adjectives, because they represent a number and quantify a noun.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao18">
+                            <p id="14" style="margin-left: 80px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) The word Million is an adjective and the word Hundred is a numeral.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao19">
+                            <p id="d" style="margin-left: 210px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Both words are numerals, because they represent a number and quantify a noun.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao20">
+                            <p id="15" style="margin-left: 100px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) The word Million is a numeral and the word Hundred is an adjective.<br>
+                        </div>
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao6()" class="btn btn-primary" style="margin-left: 900px; margin-top: 60px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n7" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Lady Perry - Why Did You Do That?</h2>
+                    <div class="espaco" style="margin-left: -530px; margin-top: 80px; text-align: center;">
+                        <p>Why do you look so good in those jeans? </p>
+                        <p>Why'd you come around me with an ass like that? </p>
+                        <p>You're making all my thoughts obscene</p>
+                        <p>This is not, not like me</p>
+                        <p>Why you keep on texting me like that? (Damn) </p>
+                        <p>Got other things I need my mind on, yeah</p>
+                        <p>Other responsibilities</p>
+                        <p>This is not, not like me</p>
+
+                        <p>Why did you do that</p>
+                        <p>Do that, do that, do that, do that to me? </p>
+                        <p>Why did you do that</p>
+                        <p>Do that, do that, do that, do that to me? </p>
+                        <p>Why did you do that</p>
+                        <p>Do that, do that, do that, do that to me? </p>
+                        <p>Why did you do that? </p>
+                        <p>Why did you do that? </p>
+ 
+
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                        <img src="img/exercicio/lady/always.jpg" onmouseover ="document.getElementById('demo6').play();" alt="Card image cap" onmouseout="document.getElementById('demo6').pause();">
+                            <audio id="demo6" src="midia/lady/why.mp3"></audio>
+                    </div>
+                    
+                <p style="margin-top: -310px; margin-left: 670px;"><b>About the sentence Why did you do that to me?, we can infer that:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao21">
+                            <p id="16" style="margin-left: 290px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) Do is the auxiliary verb, did is the main verb and the sentence is a question in the past tense. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao22">
+                            <p id="17" style="margin-left: 310px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Did is the auxiliary verb, do is the main verb and the sentence is a question in the present tense. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao23">
+                            <p id="e" style="margin-left: 290px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Did is the auxiliary verb, do is the main verb and the sentence is a question in the past tense. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op24">
+                            <p id="18" style="margin-left: 270px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" > D) Do is the auxiliary verb, did is the main verb and the sentence is a question in the present.<br>
+                        </div>
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao7()" class="btn btn-primary" style="margin-left: 900px; margin-top: 75px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+
+        <div id="question-n8" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Lady Gaga - Alejandro</h2>
+                    <div class="espaco" style="margin-left: -530px; margin-top: 40px; text-align: center;">
+                        <p>She's got both hands</p>
+                        <p>In her pocket</p>
+                        <p>And she won't look at you</p>
+                        <p>Won't look at you</p>
+                        <p>She hides true love</p>
+                        <p>En su bolsillo</p>
+                        <p>She got a halo around her finger</p>
+                        <p>Around you're</p>
+
+                        <p>You know that I love you boy</p>
+                        <p>Hot like Mexico, <b>rejoice*</b></p>
+                        <p>At this point I gotta choose</p>
+                        Nothing to lose</p>
+
+                        <p><b>I - Don't call my name</b></p>
+                        <p>Don't call my name, Alejandro</p>
+                        <p>I'm not your babe</p>
+                        <p>I'm not your babe, Fernando</p>
+
+                        <p><b>II - Don't wanna kiss, don't wanna touch</b></p>
+                        <p>Just smoke my cigarette and hush</p>
+                        <p>Don't call my name</p>
+                        <p>Don't call my name, Roberto</p>
+
+                    </div>
+                    <div class="circle" style="margin-top: 40px; margin-left: 450px; position: fixed;">
+                        <img src="img/exercicio/lady/alejandro.jpg" onmouseover ="document.getElementById('demo7').play();" alt="Card image cap" onmouseout="document.getElementById('demo7').pause();">
+                            <audio id="demo7" src="midia/lady/alejandro.mp3"></audio>
+                    </div>
+                    <p style="margin-left: 690px; margin-top: -430px;">
+                       <b>Rejoice =</b> alegrar.</p>
+                <p style="margin-top: px; margin-left: 670px;"><b>The main difference between the verses I and II is: </b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="final1">
+                            <p id="w" style="margin-left: 40px; margin-top: 3.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) The sentence I is in the imperative form, expressing an order. The sentence II is in the indicative form, expressing a fact. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="final2">
+                            <p id="x" style="margin-left: 50px; margin-top: 3.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) The sentence I is in the imperative form, expressing a fact. The sentence II is in the indicative form, expressing an order.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="final3">
+                            <p id="y" style="margin-left: 50px; margin-top: 3.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) The sentence I is in the indicative form, expressing an order. The sentence II is in the imperative form, expressing a fact.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="final4">
+                            <p id="z" style="margin-left: 430px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) The sentence I is in the indicative form, expressing a fact. The sentence II is in the imperative form, expressing an order.<br>
+                        </div>
+                        
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao8()" class="btn btn-primary" style="margin-left: 900px; margin-top: 52px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n9" class="question">
+                <div class="py-5 text-center text-white h-100 align-items-center d-flex" style="background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+                    <div class="container py-5">
+                      <div class="row">
+                        <div class="mx-auto col-lg-8 col-md-10">
+                          <h1 class="display-3 mb-4" style="margin-top: -50px; position: fixed; margin-left: 320px; color: #000;">Congratulations!</h1>
+                          <h2 style=" position: fixed; margin-left: 340px; margin-top: 50px; color: #000;">You answered all the questions.</h2>
+                          <h1 style="position: fixed; margin-top: 150px; margin-left: 300px;"><p id="acertou" ></p></h1>
+                          <h1 style="position: fixed; margin-top: 150px; margin-left: 500px; color: #000"><p id="total" ></p></h1>
+                          <h1 style="position: fixed; margin-top: 150px; margin-left: 700px;"><p id="errou" ></p></h1>
+                          <button class="btn btn-primary"style="position: fixed; background-color: #fff; color: #000; margin-top: 300px; margin-left: 380px;" ><a href="level1.html">Start again</a></button> 
+                          <button class="btn btn-primary" style="position: fixed; background-color: #fff; color: #000; margin-top: 300px; margin-left: 730px" ><a  href="level4.html">Next level</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+        
+      </div>
+      <button id="btnnext" class="btn btn-primary" style=" margin-left: 1000px; margin-top: -70px; background-color: #fff; color: #000; " onclick="goToNextQuestion()">Próximo</button>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

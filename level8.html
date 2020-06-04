@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Exercises | Sia</title>
+    <meta charset="utf-8"> 
+
+  <!-- links de estilo css-->
+    <link rel="stylesheet" type="text/css" href="css/level8.css">
+    <script type="text/javascript" src="js/level8.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/final.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"/>
+
+<!-- links boodstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+<!-- links boodstrap JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 
+
+     <!-- Desing menu bar -->
+        <style> 
+            body{
+                margin:25px;
+                margin: 0; 
+                }
+
+            #menu ul{
+                margin: 0;
+                background-color: #ffb6c1;
+                list-style: none;
+                text-align: center;
+                font-family: "serif"
+                }
+                
+            #menu ul li{
+                display: inline;    
+                }
+
+            #menu ul li a{
+                padding: 10px 10px;
+                display: inline-block;
+                color: black;
+                text-decoration: none;    
+                }
+            #menu ul li a:hover{
+                color: #0A0231;
+                }
+
+            #container {
+                display: inline-block;
+                position: relative;
+                }
+    
+            
+        </style>
+</head> 
+
+<!-- Welcome -->
+<body id="corpo">
+       <div id="menu" style="opacity: 0.9">
+                    <ul>
+                        <li><a href= "index.html">Home</a></li>
+                        <li><a href="sobrenos.html"> About Us</a></li>
+                        <li><a href= "Levels.html"> Levels</a></li>
+                        <li><a href= "singers.html"> Singers</a></li>                  
+                    </ul>
+                </div>
+     <div class="container" >
+      <div class="questions">
+        <div id="question-n1" class="question active">
+          <h2 style="margin-top: 5px; margin-left: 150px;">Sia - Cheap Thrills</h2>
+                <div class="circle" style="margin-top: 80px; margin-left: 480px;position: fixed; ">
+                        <audio id="demo" src="midia/sia/cheap.mp3"></audio>
+                        <img onmouseover ="document.getElementById('demo').play();" src="img/exercicio/sia/cheap.jpg" alt="Card image cap" onmouseout="document.getElementById('demo').pause();">
+                    </div>
+                    <div class="espaco" style="margin-left: -550px; text-align: center; margin-top: 60px;">
+                        <p>Come on, come on, turn the radio on</p>
+                        <p>It's Friday night and I won't be long</p>
+                        <p>Gotta do my hair, I put my make up on</p>
+                        <p>It's Friday night and I won't be long</p>
+                        <p>'Til I hit the dance floor</p>
+                        <p>Hit the dance floor</p>
+                        <p>I got all I need</p>
+                        <p>No I ain't got cash</p>
+                        <p>I ain't got cash</p>
+                        <p>But I got you baby</p>
+                        <p>Baby I don't need dollar bills to have fun tonight</p>
+                        <p>(I love cheap thrills!)</p>
+                        <p>Baby I don't need dollar bills to have fun tonight</p>
+                        <p>(I love cheap thrills!)</p>
+                        <p>But I don't need no money</p>
+                        <p>As long as I can feel the beat</p>
+                        <p>I don't need no money</p>
+                        <p><b>As long as</b> I keep dancing</p>
+                        
+                    </div>
+                    <div style="margin-top: -400px; margin-left: 700px;" class="espaco">
+                    <b><p>The expression in bold has three different meanings <br><br><br>and translations:</p> 
+    <p>Time:</p>
+<p>As long as can express duration in two cases and it <br><br><br>can be translated to portuguese as “enquanto” or “já <br><br><br>que”.</p>
+<p>Condition:</p>
+<p>It can also express condition and be translated to<br><br><br> portuguese as “desde que”.</p>
+</b>    
+
+                    </div>
+                    
+                    <p style="margin-left: 690px;"><b>What is the best translation of this expression in the song?</b></p>
+                    <div style="; margin-left: 500px;">
+                        <div style="margin-left: 195px;" id="opcao1">
+                            <p id="errado1" style="margin-left: 110px; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" > A) Enquanto<br>
+                        </div>
+                        <div style="margin-left: 195px;" id="opcao2">
+                            <p id="errado2" style="margin-left: 100px;  position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Já que <br>
+                        </div>
+                        <div style="margin-left: 195px;" id="opcao3">
+                            <p id="certo1" style="margin-left: 120px; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Desde que<br>
+                        </div>
+                       
+                    </div>
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao1()" class="btn btn-primary" style="margin-left: 900px; margin-top: 30px; background-color: #fff; color: #000; " >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n2" class="question">
+          <h2 style="margin-top: 15px; margin-left: 90px;">Sia - Chandelier</h2>
+                    <div style="margin-left: -600px; text-align: center; margin-top: 20px;" class="espaco">
+                        
+                        <p><b>Fill in the blanks:</b>
+                        <p>Party girls don't get <input type="text" id="alt1" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>Can't feel anything, when will I learn</p>
+                        <p>I push it down, push it down</p>
+                        <p>I'm the one "for a good time call"</p>
+                        <p>Phone's <input type="text" id="alt2" name="sigla" style="height: 30px; width: 80px;"> up, they're ringin' my <input type="text" id="alt3" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>I feel the love, feel the love</p>
+                        <p>One, two, three, one, two, three, drink</p>
+                        <p>One, two, three, one, two, three, drink</p>
+                        <p>One, two, three, one, two, three, drink</p>
+                        <p><input type="text" id="alt4" name="sigla" style="height: 30px; width: 80px;"> em back, till I lose <input type="text" id="alt5" name="sigla" style="height: 30px; width: 80px;">
+                        <p>I'm gonna* swing from the chandelier*, from the chandelier</p>
+                        <p>I'm gonna live like <input type="text" id="alt6" name="sigla" style="height: 30px; width: 80px;"> doesn't exist</p>
+                        <p>Like it doesn't exist</p>
+                        <p>I'm gonna fly like a bird <input type="text" id="alt7" name="sigla" style="height: 30px; width: 80px;"> the night, feel
+                        
+                        
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 480px;position: fixed; ">
+                        <audio id="demo1" src="midia/sia/chandelier.mp3"></audio>
+                        <img onmouseover ="document.getElementById('demo1').play();" src="img/exercicio/sia/chandelier.jpg" alt="Card image cap" onmouseout="document.getElementById('demo1').pause();">
+                    </div>
+
+                    <div style="margin-top: -500px; margin-left: 700px; text-align: center;" class="espaco">
+                         <p>my tears as they <input type="text" id="alt8" name="sigla" style="height: 30px; width: 80px;"></p>
+                        <p>I'm gonna swing from the chandelier, from the chandelier</p>
+                       <p>And I'm <input type="text" id="alt9" name="sigla" style="height: 30px; width: 80px;">  <input type="text" id="alt10" name="sigla" style="height: 30px; width: 80px;"> for dear life, won't<BR><br> look down won't open my eyes</p>
+                        <p>Keep my glass full <input type="text" id="alt11" name="sigla" style="height: 30px; width: 80px;"> morning light, 'cause I'm<br><br> just holding on for tonight</p>
+                        <p>Help me, I'm <input type="text" id="alt12" name="sigla" style="height: 30px; width: 80px;"> <input type="text" id="alt13" name="sigla" style="height: 30px; width: 80px;">  for dear life, won't<br><br><br> look down won't open my eyes</p>
+                        <p>Keep my glass full <input type="text" id="alt14" name="sigla" style="height: 30px; width: 80px;">  l morning light, 'cause I'm<br><br><br> just holding on for tonight</p>
+                        <p>On for tonight</p>
+                        <div style="text-align: left;">
+                        <p><b>Gonna =</b> gíria contraída de going to.</p>
+                        <p><b>Door bell =</b> campainha.</p>
+                        <p><b>Shame =</b> vergonha.</p>
+                        <p><b>Chandelier =</b> lustre.</p>
+                       </div>
+                    </div>
+                    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao2()" class="btn btn-primary" style="margin-left: 900px; margin-top:5px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n3" class="question">
+              <h2 style="margin-top: 15px; margin-left: 110px;">Sia - Elastic Heart</h2>
+                    <div class="espaco" style="margin-left: -580px; margin-top: 50px; text-align:center; ">
+                        <p>And another one bites the dust<p>
+                        <p>But why can I not conquer love?<p>
+                        <p>And I might've got to be with one<p>
+                        <p>Why not fight this war without weapons?<p>
+                        <p>And I want it and I wanted it bad<p>
+                        <p>But there were so many red flags<p>
+                        <p>Now another one bites the dust<p>
+                        <p>And let's be clear, I trust no one<p>
+
+                        <p>You did not break me<p>
+                        <p>I'm still fighting for peace<p>
+
+                        <p>Well I've got thick skin and an elastic heart<p>
+                        <p>But your blade it might be too sharp<p>
+                        <p>I'm like a rubber band until you pull too hard<p>
+                        <p>But I may snap when I move close</p>
+                        <p>But you won't see me fall apart</p>
+                        <p>'Cause I've got an elastic heart</p>
+                        <p>I've got an elastic heart<p>
+                        <p>Yeah, I've got an elastic heart</p>
+
+
+                        
+                        </div>
+                        <div class="circle" style=" position: fixed; margin-top: 80px; margin-left: 470px; ">
+                        <img src="img/exercicio/sia/elastic.jpg" onmouseover ="document.getElementById('demo2').play();" alt="Card image cap" onmouseout="document.getElementById('demo2').pause();">
+                            <audio id="demo2" src="midia/sia/elastic.mp3"></audio>
+                    </div> 
+                        <div style="margin-top: -400px; margin-left: 700px;" class="espaco">
+                            
+                    </div>
+                        <p style="margin-top: 0px; margin-left: 680px;"><b>About the sentence in bold, we can infer that:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao9">
+                            <p id="errado7" style="margin-left: 300px; margin-top:3.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) May - A really polite permission, a really remote possibility, permission / Might - A not so polite permission, a not so remote possibility, permission.  <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao10">
+                            <p id="certo4" style="margin-left: 300px; margin-top: 3.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Might - A really polite permission, a really remote possibility, permission / May - A not so polite permission, a not so remote possibility, permission. 
+
+<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao11">
+                            <p id="errado8" style="margin-left: 300px; margin-top: 3.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Still - A really polite permission, a really remote possibility, permission / Until - A not so polite permission, a not so remote possibility, permission. 
+ <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op12">
+                            <p id="errado9" style="margin-left: 300px; margin-top: 3.5%; position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) Another - A really polite permission, a really remote possibility, permission / ‘Cause - A not so polite permission, a not so remote possibility, permission. 
+
+                    </div>    
+                    </div>
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao3()" class="btn btn-primary" style="margin-left: 900px; margin-top: 30px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n4" class="question">
+            <h2 style="margin-top: 15px; margin-left: 80px;">Sia - Genius</h2>
+                    <div class="espaco" style="margin-left: -570px;text-align: center; margin-top: 80px;">
+                        <p>What, what you say?</p>
+                        <p>Oh my god, baby baby don't you see-e-e</p>
+                        <p>I got everythin' you ne-e-ed</p>
+                        <p>O-only a genius could love a <b>woman like she</b>
+                        <p>Oh my god, baby baby don't you see-e-e</p>
+                        <p>I got everythin' you ne-e-ed</p>
+                        <p>O-o-only a genius could love a <b>woman like she</b></p>
+
+                        <p>I'm a ge-ge-ge-ge-ge-ge-genius</p>
+                        <p>A ge-ge-ge-ge-ge-ge-genius</p>
+                        <p>A ge-ge-ge-ge-ge-ge-genius</p>
+                        <p>He's a genius</p>
+                        <p>'Cause I love a woman like you</p>
+                        <p>I'm a ge-ge-ge-ge-ge-ge-genius</p>
+                        <p>A ge-ge-ge-ge-ge-ge-genius</p>
+                        <p>A ge-ge-ge-ge-ge-ge-genius</p>
+                        <p>He's a genius</p>                        
+
+                    </div>
+                    <div class="circle" style=" position: fixed; margin-top: 80px; margin-left: 480px;">
+                        <img src="img/exercicio/sia/genius.jpg" onmouseover ="document.getElementById('demo3').play();" alt="Card image cap" onmouseout="document.getElementById('demo3').pause();">
+                            <audio id="demo3" src="midia/sia/genius.mp3"></audio>
+                    </div>
+                    <div style="margin-top: -380px; margin-left: 700px; text-align: center;" class="espaco">
+                      
+                        <p>'Cause I love a woman like you</p>
+
+                        <p>Sia</p>
+
+                        <p>Oh!</p>
+                        <p>You'll be my Einstein, my Newton, my Galileo, and my <br><br><br>Hawking</p>
+                        <p>Boy, put that pep in my step</p>
+                        <p>Put your arm on my neck while I'm walking</p>
+                        <p>Please understand, I have <b>fallen</b> for you, you</p>
+                    </div>
+                    <p style="margin-top: 0px; margin-left: 690px;"><b>1 - Is the sentence woman like she correct?<br>2 - In what verb tense is the word fallen?</b></p>
+                    
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao13">
+                            <p id="errado10" style="margin-left: 160px;position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) No / Simple Past
+<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao14">
+                            <p id="errado11" style="margin-left: 180px; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Yes / Present Perfect<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao15">
+                            <p id="errado12" style="margin-left: 160px; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Yes / Simple Past<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op16">
+                            <p id="certo5" style="margin-left: 180px;  position: fixed; "></p>
+                                <input type="radio" id="4" name="Pacote" value="Pacote iiii" >D) No / Present Perfect
+<br>
+                        </div>
+                    </div>
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao4()" class="btn btn-primary" style="margin-left: 900px; margin-top: 30px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n5" class="question">
+          <h2 style="margin-top: 15px; margin-left: 80px;">Sia - The Greatest </h2>
+                    <div class="espaco" style="margin-left: 30px; margin-top: 20px;">
+                        <p><b>* Essa é uma questão interpretativa, a qual exige que você analise a música<br><br><br> e seu videoclipe e responda a pergunta a seguir. O foco é na sua capacidade<br><br><br> em compreender a mensagem presente neste recurso audiovisual.
+                        Após<br><br><br> assistir ao videoclipe e ouvir a música, escolha a opção que melhor descreve<br><br><br> a mensagem que Sia quis passar com a música e o videoclipe:</b></p>
+                        <video width="560" height="315" controls>
+                        <source src="midia/sia/greatest.mp4" type="video/mp4">
+                        <source src="midia/greatest.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                        </video>
+                        
+                    </div>
+                    
+                <p style="margin-top: -430px; margin-left: 650px;"></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao30">
+                            <p id="c5" style="margin-left: 250px; margin-top: 11%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) Com cenário destruído, final trágico, dançarina principal com a bandeira da comunidade LGBTQIA+ e um número exato de 50 dançarinos, Sia faz uma homenagem às vítimas da boate Pulse, onde ocorreu um atentado de caráter preconceituoso em 12 de junho de 2016 conhecido como o Massacre de Orlando. O número de dançarinos corresponde ao número de vítimas do atentado.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao31">
+                            <p id="e1" style="margin-left: 50px; margin-top: 7.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Com cenário destruído e queimado, final trágico e vários dançarinos, Sia faz uma homenagem às vítimas da boate Kiss, onde, em 27 de janeiro de 2013, ocorreu um incêndio que matou 242 pessoas em Santa Maria, Rio Grande do Sul, Brasil.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao32">
+                            <p id="e2" style="margin-left: 400px; margin-top: 5.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Com cenário destruído, final trágico e vários dançarinos, Sia tenta levantar os olhos para os conflitos no Oriente Médio, retratando teatralmente a situação dos civis pegos no meio do conflito armado entre diversos países na região.<br>
+                        </div>
+                      </div>     
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao5()" class="btn btn-primary" style="margin-left: 900px; margin-top: 34px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n6" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Sia - To Be Human</h2>
+                    <div class="espaco" style="margin-left: -530px; margin-top: 60px; text-align: center;">
+                        <p>To be human is to love</p>
+                        <p>Even when it gets too much</p>
+                        <p>I'm not ready to give up</p>
+                        <p>To be human is to love</p>
+                        <p>Even when it gets too much</p>
+                        <p>I'm not ready to give up</p>
+
+                        <p>All the tigers have been out</p>
+                        <p>I don't care, I hear them howl</p>
+                        <p>I let them tear right through me</p>
+                        <p>Can you help me not to care?</p>
+                        <p>Every breath becomes a prayer</p>
+                        <p>Take this pain from me</p>
+
+                        <p>And oh, you're so far now</p>
+                        <p>So far from my arms now</p>
+
+                        <p>To be human is to love</p>
+                        <p>Even when it gets too much</p>
+                        
+
+                    </div>
+                        
+        
+                    <div class="circle" style="margin-top: 80px; margin-left: 470px; position: fixed;">
+                        <img src="img/exercicio/sia/human.jpg" onmouseover ="document.getElementById('demo5').play();" alt="Card image cap" onmouseout="document.getElementById('demo5').pause();">
+                            <audio id="demo5" src="midia/sia/human.mp3"></audio>
+                    </div>
+                    <div style="margin-top: -380px; margin-left: 700px; text-align: center;" class="espaco">
+                        <p>I'm not ready to give up</p>
+                        <p>To be human is to love</p>
+                        <p>Even when it gets too much</p>
+                        <p>I'm not ready to give up</p>
+                        <p>To be human</p>
+                        <p>To be human</p>
+                        <p>To be human</p>
+                    </div>
+               
+                     
+                        <p style="margin-top: 0px; margin-left: 670px;"><b>About the words in bold, we can infer that:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="op15">
+                            <p id="e16" style="margin-left: 340px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) They are both prepositions of place, where under means embaixo and between means entre or no meio.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opc16">
+                            <p id="er17" style="margin-left: 330px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) They are both conjunctions of place, where under means acima and between means entre or no meio.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op17">
+                            <p id="certo7" style="margin-left: 330px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) They are both prepositions of place, where under means acima and between means entre or no meio.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op18">
+                            <p id="e18" style="margin-left: 340px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="" name="Pacote" value="Pacote iiii" >D) They are both conjunctions of place, where under means embaixo and between means entre or no meio.<br>
+                        </div>
+                        
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao7()" class="btn btn-primary" style="margin-left: 900px; margin-top: 24px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+        <div id="question-n7" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Sia - Big Girls Cry</h2>
+                    <div class="espaco" style="margin-left: -540px; margin-top: 100px; text-align: center;">
+                        <p>Tough girl in the fast lane</p>
+                        <p>No time for love, no time for hate</p>
+                        <p>No drama, no time for games</p>
+                        <p><b>Tough girl whose soul aches</p></b>
+
+                        <p>I'm at home, on my own</p>
+                        <p>Check my phone, nothing, though</p>
+                        <p>Act busy, order in</p>
+                        <p>Pay TV, it's agony</p>
+
+                        <p>I may cry ruinin' my makeup</p>
+                        <p>Wash away all the things you've taken</p>
+                        <p>And I don't care if I don't look pretty</p>
+                        <p>Big girls cry when their hearts are breaking</p>
+                        <p>Big girls cry when their hearts are breaking</p>
+                        <p>Big girls cry when their heart is breaking</p>
+
+
+                        
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 460px; position: fixed;">
+                        <img src="img/exercicio/sia/big.jpg" onmouseover ="document.getElementById('demo7').play();" alt="Card image cap" onmouseout="document.getElementById('demo7').pause();">
+                            <audio id="demo7" src="midia/sia/girls.mp3"></audio>
+                    </div>
+                    <div style="margin-left: 690px; margin-top: -280px; text-align: center;" class="espaco">      
+                    </div>
+                    <p style="margin-left: 670px; "><b>About the sentence To be human, we can infer that:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="opcao33">
+                            <p id="e3" style="margin-left: 360px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) The verb be is in the simple past form, so it’s not conjugated in any way, it’s the verb original form.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao34">
+                            <p id="e4" style="margin-left: 110px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) The verb be is in the infinitive form, which isn’t the verb original form.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opcao35">
+                            <p id="e5" style="margin-left: 270px; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) There’s no verb in this sentence.<br>
+                        </div>
+                        <div style="margin-left: 185px;" id="o36">
+                            <p id="c6" style="margin-left: 280px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="" name="Pacote" value="Pacote iiii" >D) The verb be is in the infinitive form, so it’s not conjugated, it’s the verb original form.<br>
+                        </div>
+                        
+                    </div> 
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao6()" class="btn btn-primary" style="margin-left: 900px; margin-top: 30px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+
+                    
+        </div>
+
+        <div id="question-n8" class="question">
+          <h2 style="margin-top: 15px; margin-left: 110px;">Sia - Bird Set Free</h2>
+                    <div class="espaco" style="margin-left: -540px; margin-top: 40px; text-align: center;">
+                       <p>There's a scream inside that <b>we</b> all try to hide</p>
+                        <p>We hold on so tight, we cannot deny</p>
+                        <p>Eats us alive, oh it eats us alive, oh</p>
+                        <p>Yes, there's a scream inside that we all try to hide</p>
+                        <p>We hold on so tight, but I don't wanna die, no</p>
+                        <p>I don't wanna die, I don't wanna die, yeah</p>
+
+                        <p>And I don't care if I sing off key</p>
+                        <p>I find <b>myself</b> in my melodies</p>
+                        <p>I sing for love, I sing for me</p>
+                        <p>I shout it out like a bird set free</p>
+                        <p>No, I don't care if I sing off key</p>
+                        <p>I find myself in <b>my</b> melodies</p>
+                        <p>I sing for love, I sing for me</p>
+                        <p>I'll shout it out like a bird set free</p>
+                        <p>I'll shout it out like a bird set free</p>
+                        <p>I'll shout it out like a bird set free</p>
+                        <p>I'll shout it out like a bird set free</p>
+                        <p>I'll shout it out like a bird set free</p>
+                        <p>I'll shout<b> it</b> out like a bird set free</p>
+
+
+                        
+                    </div>
+                    <div class="circle" style="margin-top: 80px; margin-left: 460px; position: fixed;">
+                        <img src="img/exercicio/sia/bird.jpg" onmouseover ="document.getElementById('demo8').play();" alt="Card image cap" onmouseout="document.getElementById('demo8').pause();">
+                            <audio id="demo8" src="midia/sia/bird.mp3"></audio>
+                    </div>
+                    <div style="margin-left: 690px; margin-top: -350px; text-align: center;" class="espaco">      
+                    </div>
+
+                    <p style="margin-top: 0px; margin-left: 670px;"><b>The pronouns in bold are respectively:</b></p>
+                    <div style="margin-top: 0px; margin-left: 500px;">
+                        <div style="margin-left: 185px;" id="op19">
+                            <p id="e19" style="margin-left: 230px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="1" name="Pacote" value="Pacote i" >A) Personal pronoun - Possessive pronoun - Reflexive pronoun - Reflexive pronoun. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opc20">
+                            <p id="c7" style="margin-left: 230px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="2" name="Pacote" value="Pacote ii" >B) Personal pronoun - Reflexive pronoun - Possessive Adjective - Personal Pronoun. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="op21">
+                            <p id="er20" style="margin-left: 180px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="3" name="Pacote" value="Pacote iii" >C) Possessive pronoun - Personal pronoun - Reflexive pronoun - Reflexive. <br>
+                        </div>
+                        <div style="margin-left: 185px;" id="opc22">
+                            <p id="er21" style="margin-left: 230px; margin-top: 1.5%; position: fixed; "></p>
+                                <input type="radio" id="" name="Pacote" value="Pacote iiii" >D) Reflexive pronoun  - Personal pronoun - Possessive pronoun - Personal Pronoun.<br>
+                        </div>
+                        
+                    </div>    
+                    <div style="margin-left: 0px;">
+                            <button onClick ="questao8()" class="btn btn-primary" style="margin-left: 900px; margin-top: 30px; background-color: #fff; color: #000;" >Submit</button>
+                        </div>
+        </div>
+                    <div id="question-n9" class="question">
+                <div class="py-5 text-center text-white h-100 align-items-center d-flex" style="background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+                    <div class="container py-5">
+                      <div class="row">
+                        <div class="mx-auto col-lg-8 col-md-10">
+                          <h1 class="display-3 mb-4" style="margin-top: -50px; position: fixed; margin-left: 320px; color: #000;">Congratulations!</h1>
+                          <h2 style=" position: fixed; margin-left: 340px; margin-top: 50px; color: #000;">You answered all the questions.</h2>
+                          <h1 style="position: fixed; margin-top: 150px; margin-left: 300px;"><p id="acertou" ></p></h1>
+                           <h1 style="position: fixed; margin-top: 150px; margin-left: 500px; color: #000"><p id="total" ></p></h1>
+                          <h1 style="position: fixed; margin-top: 150px; margin-left: 700px;"><p id="errou" ></p></h1>
+                          <button class="btn btn-primary"style="position: fixed; background-color: #fff; color: #000; margin-top: 300px; margin-left: 380px;" ><a href="level8.html">Start again</a></button> 
+                          <button class="btn btn-primary" style="position: fixed; background-color: #fff; color: #000; margin-top: 300px; margin-left: 730px" ><a  href="level9.html">Next level</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+      <button id="btnnext" class="btn btn-primary" style="margin-left: 1000px; margin-top: -65px; background-color: #fff; color: #000;" onclick="goToNextQuestion()">Next</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
